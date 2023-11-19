@@ -14,7 +14,7 @@ services:
       REDIS_URL: "redis://redis:6379" # Define the Redis URL using the hostname of the Redis service
     volumes:
       - type: bind
-        source: ./config.example.yml
+        source: ./config.yml
         target: /app/config.yml
         read_only: true
 
