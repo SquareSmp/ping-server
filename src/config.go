@@ -13,7 +13,7 @@ var (
 	// DefaultConfig is the default configuration values used by the application.
 	DefaultConfig *Config = &Config{
 		Environment: "production",
-		Host:        "127.0.0.1",
+		Host:        "0.0.0.0",
 		Port:        3001,
 		Redis:       nil,
 		Cache: ConfigCache{
